@@ -1,0 +1,71 @@
+import { Look } from "../types/collection";
+
+export const COLLECTION_METADATA = {
+  brand: "KAYA ELITE",
+  season: "FW26",
+  title: "RUNWAY COUTURE",
+  lookCount: 3,
+  headline: "COLLECTION",
+  overviewSubtitle: "Three signature runway silhouettes designed for the modern muse.",
+  overviewInstruction: "Click a figure to step into the look.",
+  currency: "EUR",
+  currencySymbol: "€",
+};
+
+export const LOOKS_DATA: Look[] = [
+  {
+    id: "look-01",
+    lookNumber: "01",
+    subtitleTag: "LOOK 01 / 03 · MONOCHROME SPLIT. GRAPHIC TAILORING.",
+    name: "THE DUALITY",
+    tagline: "Graphic half-black, half-white tailored jumpsuit with wrap V-neck and structured mini tote.",
+    primaryColor: "#151515",
+    accentColor: "#f5f5f5",
+    characterType: "slender",
+    pose: "stride",
+    silhouetteDescription: "High-contrast two-tone split jumpsuit with tailored cigarette leg and ankle boots.",
+    items: [
+      { name: "Bicolor wrap jumpsuit", material: "Italian stretch nappa & ivory crepe", price: 1450 },
+      { name: "Mini structured bag", material: "Calfskin with top handle", price: 680 },
+      { name: "Pointed leather boot", material: "Glazed lambskin", price: 720 },
+    ],
+    totalPrice: 2850,
+  },
+  {
+    id: "look-02",
+    lookNumber: "02",
+    subtitleTag: "LOOK 02 / 03 · HARDWARE NOIR. SHEER MESH ACCENTS.",
+    name: "THE SHEARLING MOTO",
+    tagline: "Oversized shearling collar biker jacket contrasted with buckled micro-skirt and sheer fishnets.",
+    primaryColor: "#1a1a1a",
+    accentColor: "#333333",
+    characterType: "armored",
+    pose: "standing",
+    silhouetteDescription: "Heavyweight shearling leather jacket with sheer mesh sleeves, belted skirt, and boots.",
+    items: [
+      { name: "Shearling biker jacket", material: "Vegetal leather & merino shearling", price: 2600 },
+      { name: "Buckled mini skirt", material: "Heavy wool twill & silver hardware", price: 590 },
+      { name: "Fishnet tights", material: "Technical micro-mesh", price: 140 },
+      { name: "Zip Chelsea boot", material: "Box calf leather", price: 780 },
+    ],
+    totalPrice: 4110,
+  },
+  {
+    id: "look-03",
+    lookNumber: "03",
+    subtitleTag: "LOOK 03 / 03 · RETRO SILHOUETTE. TEXTURED FLARE.",
+    name: "HALTER SKATER MINI",
+    tagline: "Ivory textured sweetheart skater dress with contrasting black halter straps and retro curled bob.",
+    primaryColor: "#f6f3eb",
+    accentColor: "#181818",
+    characterType: "twintail",
+    pose: "dynamic",
+    silhouetteDescription: "Flared skater mini dress with black piping, open tie-back, and ankle-strap Mary Janes.",
+    items: [
+      { name: "Halter skater mini dress", material: "Textured matelassé & silk piping", price: 1280 },
+      { name: "Mary Jane pump", material: "Patent calfskin with ankle strap", price: 620 },
+      { name: "Mini top-handle bag", material: "Fine-grained leather", price: 540 },
+    ],
+    totalPrice: 2440,
+  },
+];
